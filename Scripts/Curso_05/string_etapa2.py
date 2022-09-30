@@ -19,5 +19,5 @@ print("Nome: {nome} idade: {idade}".format(**dados))
 
 print(f"Nome: {nome} Idade: {idade} Saldo: {saldo:10.2f}")
 
-print(f"Nome: {nome} Idade: {idade} Saldo: {saldo:.2f}")
+print(f"Nome: \033[1;32m{nome}\033[m Idade: \033[1;32m{idade}\033[m Saldo: \033[1;32m{saldo:.2f}\033[m")
       

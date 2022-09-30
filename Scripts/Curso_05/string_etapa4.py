@@ -3,8 +3,9 @@ curso = "Python"
 
 mensagem = f'''
     Olá, meu nome é \033[1;31m{nome}\033[m.
-Estou revendo {curso}.
+Estou revendo \033[1;94m{curso}\033[m.
         Mensagem com diferentes recuos.
+    Adicionando \033[1;31mc\033[m\033[1;32mo\033[m\033[1;33mr\033[m\033[1;34me\033[m\033[1;35ms\033[m ao código!!!
 '''
 print(mensagem)
 
