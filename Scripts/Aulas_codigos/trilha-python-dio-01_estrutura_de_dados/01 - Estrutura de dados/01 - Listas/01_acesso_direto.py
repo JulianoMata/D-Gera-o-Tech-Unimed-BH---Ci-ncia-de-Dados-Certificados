@@ -1,3 +1,5 @@
+# utilizando indice em uma lista
+
 frutas = ["maçã", "laranja", "uva", "pera"]
 
 print(frutas[0])  # maçã

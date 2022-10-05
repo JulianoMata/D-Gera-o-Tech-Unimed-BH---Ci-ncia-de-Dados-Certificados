@@ -1,3 +1,5 @@
+# Utiliza 'colchetes' ou 'construtor 'list' para declarar um lista
+
 frutas = ["laranja", "maca", "uva"]
 print(frutas)
 
