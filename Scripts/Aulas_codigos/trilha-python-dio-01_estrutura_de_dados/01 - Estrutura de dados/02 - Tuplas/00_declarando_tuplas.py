@@ -1,3 +1,4 @@
+# Criação de 'Tuplas' utiliza-se 'Parênteses'(com vírgula após o ultimo valor) ou 'Tuple'
 frutas = (
     "laranja",
     "pera",
@@ -13,3 +14,7 @@ print(numeros)
 
 pais = ("Brasil",)
 print(pais)
+
+# Exercicio
+carros = ("gol")
+print(isinstance(carros, tuple)) # False
