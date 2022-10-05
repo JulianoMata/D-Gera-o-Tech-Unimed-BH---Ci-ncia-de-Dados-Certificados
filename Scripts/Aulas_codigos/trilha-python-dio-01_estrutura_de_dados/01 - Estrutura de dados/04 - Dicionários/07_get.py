@@ -1,3 +1,5 @@
+# Outra maneira de acessar valores no dicionário é o método 'get'
+
 contatos = {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}}
 
 # contatos["chave"]  # KeyError
