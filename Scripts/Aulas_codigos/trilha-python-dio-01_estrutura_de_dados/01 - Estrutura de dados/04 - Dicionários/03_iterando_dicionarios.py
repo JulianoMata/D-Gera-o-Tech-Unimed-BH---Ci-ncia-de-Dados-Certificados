@@ -11,4 +11,4 @@ for chave in contatos:
 print("=" * 100)
 
 for chave, valor in contatos.items():
-    print(chave, valor)
+    print(chave, valor)  # Percorrer dicionário
