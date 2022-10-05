@@ -3,7 +3,7 @@ conjunto_b = {6, 7, 8, 9}
 conjunto_c = {1, 0}
 
 resultado = conjunto_a.isdisjoint(conjunto_b)  # True
-print(resultado)
+print(resultado) # True -Não tem intersecção
 
 resultado = conjunto_a.isdisjoint(conjunto_c)  # False
-print(resultado)
+print(resultado) # False - Tem instersecção
