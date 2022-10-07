@@ -1,8 +1,19 @@
 """ 
+01 - João tem uma bicicletaria e gostaria de registrar as vendas de suas bicicletas. Crie um programa onde João informe: cor, modelo, ano e valor da bicicleta vendida. Uma bicicleta pode: buzinar, parar e correr. adicione esses comportamentos!
+
+"""
+
+""" 
 Uma classe define as características e comportamentos de um objeto, porém não conseguimos usá-las diretamente. Já os objetos podemos usá-los e eles possuem as características e comportamentos que forma definidos nas classes.
 
 """
 
+linha = ("=" * 50)
+titulo = (" Desafio Bicicletaria ")
+
+print(f"\033[33m{linha.center(50)}\033[m")
+print(f"\033[32m{titulo.center(50, '*')}\033[m")
+print(f"\033[33m{linha.center(50)}\033[m\n")
 
 class Bicicleta:
     def __init__(self, cor, modelo, ano, valor):
@@ -20,17 +31,20 @@ class Bicicleta:
 
     def correr(self):
         print("Vrummmmm...")
-
+        
+    
+    
+    # esse código pode ser ÚTIL qdo vc for adicionar algum outro item em sua classe!!!
     def __str__(self):
         return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
 
-b1 = Bicicleta("vermelha", "caloi", 2022, 600)
-b1.buzinar()
-b1.correr()
-b1.parar()
-print(b1.cor, b1.modelo, b1.ano, b1.valor)
+bicicleta_1 = Bicicleta("vermelha", "caloi", 2022, 600)
+bicicleta_1.buzinar()
+bicicleta_1.correr()
+bicicleta_1.parar()
+print(bicicleta_1.cor, bicicleta_1.modelo, bicicleta_1.ano, bicicleta_1.valor)
 
-b2 = Bicicleta("verde", "monark", 2000, 189)
-print(b2)
-b2.correr()
+bicicleta_2 = Bicicleta("verde", "monark", 2000, 189)
+print(bicicleta_2)
+bicicleta_2.correr()
