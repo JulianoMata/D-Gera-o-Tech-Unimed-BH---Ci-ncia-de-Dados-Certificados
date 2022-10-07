@@ -4,7 +4,8 @@
 """
 
 """ 
-Uma classe define as características e comportamentos de um objeto, porém não conseguimos usá-las diretamente. Já os objetos podemos usá-los e eles possuem as características e comportamentos que forma definidos nas classes.
+UMA CLASSE DEFINE AS CARACTERÍSTICAS E COMPORTAMENTOS DE UM OBJETO, PORÉM NÃO CONSEGUIMOS USÁ-LAS DIRETAMENTE. JÁ OS OBJETOS PODEMOS USÁ-LOS E ELES POSSUEM AS CARACTERÍSTICAS E COMPORTAMENTOS QUE FORMA DEFINIDOS NAS CLASSES.
+
 
 """
 
