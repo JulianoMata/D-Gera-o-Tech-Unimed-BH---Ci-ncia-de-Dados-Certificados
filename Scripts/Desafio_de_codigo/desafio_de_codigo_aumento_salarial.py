@@ -57,7 +57,28 @@ reajuste_ganho = (percentual * salario) / 100
 novo_salario = (salario + reajuste_ganho)
 
 print(f"Novo salario: {(novo_salario):.2f}\nReajuste ganho: {reajuste_ganho:.2f}\nEm percentual: {percentual} %".replace(".",","))    
-# print(f"Reajuste ganho: R$ {reajuste_ganho}")
-# print()
-# print(f"Em percentual: {percentual}%")
+
+
+# Outro modo
+# salario = int(input())
+
+# def calcular_reajuste(salario):
+#     reajuste = 0
+#     if salario <= 600:
+#         reajuste = 17
+#     elif salario <= 900:
+#         reajuste = 13
+#     elif salario <= 1500:
+#         reajuste = 12
+#     elif salario <= 2000:
+#         reajuste = 10
+#     else:
+#         reajuste = 5
+
+#     return reajuste
+
+
+# reajuste = calcular_reajuste(salario)
+# parcial = (salario*reajuste) / 100
+# print(f"Novo salario: {(salario + parcial):.2f}\nReajuste ganho: {parcial:.2f}\nEm percentual: {reajuste} %".replace(".","."))
 
